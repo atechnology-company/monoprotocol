@@ -7,7 +7,7 @@ Audit date: 2026-05-17. Spec is canonical under `spec/`; this document records g
 | Area | Status |
 |------|--------|
 | Spec ↔ crypto (HKDF salt/info, AES-GCM split tag, BLAKE3 content hash) | Golden vectors in `conformance/golden/crypto.json` |
-| Spec ↔ wire JSON/CBOR | Fixtures + `mono-protocol-conformance` tests |
+| Spec ↔ wire JSON/CBOR | Fixtures + `monoprotocol-conformance` tests |
 | Spec ↔ transfer policy matrix | `conformance/json/transfer_policy_matrix.json` |
 | `validate_meta_at` (version, lifetime, 2FA presence, encryption fields) | Conformance fixtures at fixed `now_utc` |
 | License | MPL-2.0 (`LICENSE`) |
@@ -30,8 +30,8 @@ Audit date: 2026-05-17. Spec is canonical under `spec/`; this document records g
 - [x] CI workflow verifies tests and fixture drift
 - [ ] Push to `github.com/atechnology-company/monoprotocol`
 - [ ] Tag `v0.2.0-draft.1` (optional)
-- [ ] Publish `mono-protocol` to crates.io (optional)
+- [ ] Publish `monoprotocol` to crates.io
 
 ## mono integration
 
-`mono` depends on `path = "../monoprotocol/rust/mono-protocol"`. The in-tree `crates/mono-protocol` copy is removed to avoid drift.
+`mono` depends on `path = "../monoprotocol/rust/monoprotocol"` (crate name `monoprotocol` on crates.io). The in-tree `crates/mono-protocol` copy is removed to avoid drift.

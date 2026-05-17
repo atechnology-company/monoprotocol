@@ -2,7 +2,7 @@
 
 **Protocol version string:** `mono-sync/0.2.0-draft`
 
-This document is **canonical**. The Rust crate in `rust/mono-protocol/` is a reference implementation and MUST conform to this spec and the fixtures in `conformance/`. See [OBJECTS.md](./OBJECTS.md) and [CONFORMANCE.md](./CONFORMANCE.md).
+This document is **canonical**. The Rust crate `monoprotocol` (`rust/monoprotocol/`) is a reference implementation and MUST conform to this spec and the fixtures in `conformance/`. See [OBJECTS.md](./OBJECTS.md) and [CONFORMANCE.md](./CONFORMANCE.md).
 
 ---
 

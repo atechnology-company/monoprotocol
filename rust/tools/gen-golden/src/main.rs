@@ -3,7 +3,7 @@ use std::path::PathBuf;
 
 use base64::{engine::general_purpose::STANDARD, Engine as _};
 use chrono::{TimeZone, Utc};
-use mono_protocol::{
+use monoprotocol::{
     derive_sync_key, encrypt_object_payload_with_nonce, ContentHash, DeviceId,
     EnvelopeId, IdentityId, KeyId, ObjectId, ObjectKind, SyncEnvelope, TransferClass,
     PROTOCOL_VERSION,

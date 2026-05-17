@@ -66,8 +66,8 @@ Validation tests MUST use `now_utc = 2026-01-15T18:00:00Z` so envelopes are not 
 
 ```bash
 cd rust
-cargo test -p mono-protocol-conformance
-cargo test -p mono-protocol
+cargo test -p monoprotocol-conformance
+cargo test -p monoprotocol
 ```
 
 ---

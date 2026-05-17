@@ -1,5 +1,5 @@
 [package]
-name = "mono-protocol"
+name = "monoprotocol"
 description = "Mono sync protocol reference types and crypto (spec is canonical in spec/)"
 version.workspace = true
 edition.workspace = true
@@ -8,7 +8,7 @@ license.workspace = true
 license-file = "../../LICENSE"
 repository.workspace = true
 readme = "../../README.md"
-documentation = "https://github.com/atechnology-company/monoprotocol/tree/main/spec"
+documentation = "https://docs.rs/monoprotocol"
 homepage = "https://github.com/atechnology-company/monoprotocol"
 keywords = ["sync", "encryption", "protocol", "identity"]
 categories = ["cryptography", "encoding"]

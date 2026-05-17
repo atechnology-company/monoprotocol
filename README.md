@@ -3,7 +3,7 @@
 **Version:** `mono-sync/0.2.0-draft`  
 **License:** [Mozilla Public License 2.0](LICENSE)
 
-The **Markdown specification** in [`spec/`](spec/) is canonical. The Rust crate under [`rust/mono-protocol/`](rust/mono-protocol/) is a reference implementation that MUST match the spec and [`conformance/`](conformance/) fixtures; third-party code should implement against the spec first.
+The **Markdown specification** in [`spec/`](spec/) is canonical. The Rust crate [`monoprotocol`](https://crates.io/crates/monoprotocol) under [`rust/monoprotocol/`](rust/monoprotocol/) is a reference implementation that MUST match the spec and [`conformance/`](conformance/) fixtures; third-party code should implement against the spec first.
 
 ## Repository layout
 
@@ -13,8 +13,8 @@ The **Markdown specification** in [`spec/`](spec/) is canonical. The Rust crate 
 | `spec/OBJECTS.md` | Normative replicated object model |
 | `spec/CONFORMANCE.md` | How to run and extend test vectors |
 | `conformance/` | Golden HKDF/AES-GCM vectors, JSON and CBOR wire fixtures |
-| `rust/mono-protocol` | Reference types and crypto (MPL-2.0) |
-| `rust/mono-protocol-conformance` | Tests that load `conformance/` fixtures |
+| `rust/monoprotocol` | Published crate `monoprotocol` on crates.io (MPL-2.0) |
+| `rust/monoprotocol-conformance` | Tests that load `conformance/` fixtures |
 
 ## Quick start (Rust)
 

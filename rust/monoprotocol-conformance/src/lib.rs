@@ -2,7 +2,7 @@ use std::fs;
 use std::path::PathBuf;
 
 use chrono::{TimeZone, Utc};
-use mono_protocol::{
+use monoprotocol::{
     decrypt_envelope, derive_sync_key, encrypt_object_payload_with_nonce, SyncEnvelope,
     TransferClass, TransferPolicy, PROTOCOL_VERSION,
 };

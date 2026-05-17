@@ -1,5 +1,5 @@
 [package]
-name = "mono-protocol-conformance"
+name = "monoprotocol-conformance"
 description = "Conformance tests against spec fixtures (golden, JSON, CBOR)"
 version.workspace = true
 edition.workspace = true
@@ -9,7 +9,7 @@ repository.workspace = true
 publish = false
 
 [dependencies]
-mono-protocol.workspace = true
+monoprotocol.workspace = true
 serde.workspace = true
 serde_json.workspace = true
 chrono.workspace = true
