@@ -28,9 +28,9 @@ Audit date: 2026-05-17. Spec is canonical under `spec/`; this document records g
 - [x] Committed conformance fixtures (regenerate with `cargo run -p gen-golden`)
 - [x] `cargo test` green in `rust/`
 - [x] CI workflow verifies tests and fixture drift
-- [ ] Push to `github.com/atechnology-company/monoprotocol`
+- [x] Push to `github.com/atechnology-company/monoprotocol`
 - [ ] Tag `v0.2.0-draft.1` (optional)
-- [ ] Publish `monoprotocol` to crates.io
+- [x] Publish `monoprotocol` v0.2.0 to crates.io
 
 ## mono integration
 
