@@ -1,0 +1,27 @@
+[package]
+name = "mono-protocol"
+description = "Mono sync protocol reference types and crypto (spec is canonical in spec/)"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+license-file = "../../LICENSE"
+repository.workspace = true
+readme = "../../README.md"
+documentation = "https://github.com/atechnology-company/monoprotocol/tree/main/spec"
+homepage = "https://github.com/atechnology-company/monoprotocol"
+keywords = ["sync", "encryption", "protocol", "identity"]
+categories = ["cryptography", "encoding"]
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+chrono.workspace = true
+uuid.workspace = true
+aes-gcm.workspace = true
+hkdf.workspace = true
+sha2.workspace = true
+blake3.workspace = true
+base64.workspace = true
+rand.workspace = true

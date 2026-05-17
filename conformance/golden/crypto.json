@@ -1,0 +1,24 @@
+{
+  "protocol_version": "mono-sync/0.2.0-draft",
+  "vectors": [
+    {
+      "expected_sync_key_hex": "cc17ea1dc2e552115f0ddc29ed1d688dcf8193788c41d76cf84c5e40016e056a",
+      "id": "hkdf_derive_sync_key_v1",
+      "identity_id": "018f3e8e-7b3c-7000-8000-000000000001",
+      "ikm_hex": "0102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f20",
+      "info": "mono-sync-key-v1",
+      "salt": "mono-identity-018f3e8e-7b3c-7000-8000-000000000001"
+    },
+    {
+      "expected_ciphertext_b64": "COxCFIwUjHFWImc=",
+      "expected_content_hash_hex": "79b9a2c6f0a223d5b616e0eab50caae83566ecd04564d3b0e9f9ddaf8108457c",
+      "expected_nonce_b64": "AAECAwQFBgcICQoL",
+      "expected_tag_b64": "/0dnDtOKwEDlLtU7mHgVqw==",
+      "id": "aes_gcm_private_state_tab_set_payload",
+      "identity_id": "018f3e8e-7b3c-7000-8000-000000000001",
+      "ikm_hex": "0102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f20",
+      "nonce_hex": "000102030405060708090a0b",
+      "plaintext_utf8": "{\"tabs\":[]}"
+    }
+  ]
+}

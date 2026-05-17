@@ -1,0 +1,16 @@
+{
+  "version": "mono-sync/0.2.0-draft",
+  "envelope_id": "018f3e8e-7b3c-7000-8000-000000000010",
+  "object_id": "018f3e8e-7b3c-7000-8000-000000000020",
+  "object_kind": "tab_set",
+  "owner": "018f3e8e-7b3c-7000-8000-000000000001",
+  "source_device_id": "018f3e8e-7b3c-7000-8000-000000000030",
+  "transfer_class": "public_metadata",
+  "created_at": "2026-01-15T12:00:00Z",
+  "expires_at": "2026-01-16T12:00:00Z",
+  "key_id": "key-conformance-0",
+  "nonce": "",
+  "ciphertext": "eyJ0YWJzIjpbeyJ1cmwiOiJodHRwczovL2V4YW1wbGUuY29tIiwidGl0bGUiOiJFeGFtcGxlIn1dfQ==",
+  "tag": "",
+  "content_hash": "c3b6a5cb71412d6d4febc44dcaf61766b10d55a9d39cbb8478a785a38e70b575"
+}
