@@ -42,3 +42,13 @@ cargo run -p gen-golden   # regenerate conformance/golden and wire fixtures
 ## Related projects
 
 Product mesh, gateway, browser, and adapters remain in [mono](https://github.com/atechnology-company/mono) and depend on this protocol crate.
+
+Related open source repos:
+- [The RV8 Browser Engine](https://github.com/tschk/rv8)
+  - a browser engine built ourselves with servo + v8 with our in house optimisations
+- [Atmosphere](https://github.com/atechnology-company/atmosphere)
+  - an application that syncs clipboard, photos and files between devices natively. it also has handoff to drop what you are working on on one device and pick it up on another.
+- [Soliloquy](https://github.com/tschk/soliloquy)
+  - an ultralight browser native operating system built on top of Alpine and RV8
+- [Crepuscularity](https://github.com/tschk/crepuscularity)
+  - one UI codebase for desktop, web, mobile, terminal, browser extensions, and embedded devices. Write React JSX or our lightweight DSL, get GPUI, Ratatui, SwiftUI, LVGL, and more. Batteries included.
