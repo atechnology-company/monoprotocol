@@ -11,7 +11,7 @@ default-members = ["monoprotocol", "monoprotocol-conformance"]
 version = "0.2.0"
 edition = "2021"
 rust-version = "1.86"
-license = "MPL-2.0"
+license = "ISC"
 repository = "https://github.com/atechnology-company/monoprotocol"
 
 [workspace.dependencies]
